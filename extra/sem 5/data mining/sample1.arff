@@ -1,0 +1,16 @@
+@relation training
+
+@attribute habits {gabby,quiet}
+@attribute eats {baked,roasted,fried}
+@attribute footwear {clogs,sandals}
+@attribute class? {student,professor}
+
+@data
+gabby,baked,clogs,student
+gabby,roasted,sandals,professor
+gabby,baked,sandals,student
+quiet,fried,sandals,professor
+gabby,fried,clogs,student
+quiet,baked,sandals,student
+gabby,fried,sandals,professor
+quiet,fried,clogs,student

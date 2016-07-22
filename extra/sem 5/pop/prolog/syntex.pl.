@@ -1,0 +1,2 @@
+weather(p,summer,hot).
+weather()

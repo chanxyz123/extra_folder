@@ -1,0 +1,9 @@
+classification rules :- 
+1.if Footwear = Clogs then Class = Student.
+2.if Eats = Roasted then Class = Professor.
+3.if Footwear = Sandals and Habit = Quiet then Class = Professor.
+4.if Habit = Gabby and Footwear = Clogs then Class = Student.
+5.if Habit = Gabby and Footwear = Sandals then Class = Professor.
+6.if Habit = Quiet and Footwear = Clogs and Class = Student.
+7.if Habit = Quiet and Footwear = Sandals and Eats = Fried then Class = Student.
+8.if Habit = Quiet and Footwear = Sandals and Eats = Baked then Class = Professor.

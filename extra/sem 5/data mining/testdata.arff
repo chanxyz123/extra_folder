@@ -1,0 +1,9 @@
+@relation test
+
+@attribute habits {gabby,quiet}
+@attribute eats {baked,roasted,fried}
+@attribute footwear {clogs,sandals}
+@attribute class? {student,professor}
+
+@data
+?,?,clogs,student

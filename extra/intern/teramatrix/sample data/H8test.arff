@@ -1,0 +1,11 @@
+@RELATION H8test
+
+@ATTRIBUTE attribute_0 REAL
+@ATTRIBUTE attribute_1 REAL
+@ATTRIBUTE attribute_2 REAL
+@ATTRIBUTE attribute_3 REAL
+@ATTRIBUTE attribute_4 REAL
+@ATTRIBUTE attribute_5 REAL
+
+@DATA
+499900,13.19,1.64,332,107.28,5.19

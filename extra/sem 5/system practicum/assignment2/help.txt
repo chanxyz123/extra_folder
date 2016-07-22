@@ -1,0 +1,7 @@
+: cd <directory>  ->  change  the current working(or default) directory to  <directory>.if <dirname > argument is not present then report current the current directory.
+: clr	-> clear the screen.
+: dir <directory>	-> list the content of directory <dirname>.
+: environ	-> list all the enviroment strings.
+: echo	<comment> -> Display <comment> on the display in the new line( multiple spaces/tabs reduced to single space).
+: pause	-> Pause operation on the shell untill 'Enter' is pressed.
+: quit	-> Quit the shell.

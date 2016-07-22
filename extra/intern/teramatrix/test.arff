@@ -1,0 +1,12 @@
+@relation Test
+
+@attribute COUNT numeric
+@attribute "POWER SUPPLY VOLTAGE" numeric
+@attribute CURRENT numeric
+@attribute FREQUENCY numeric
+@attribute "NOISE LEVEL" numeric
+@attribute "OPERATING VOLTAGE RANGE" numeric
+
+
+@data
+500000,13.22,1.68,326,105.36,8.59 

@@ -1,0 +1,8 @@
+cd pop
+clr
+dir
+environ
+pause
+echo kuch bhi 
+help
+quit

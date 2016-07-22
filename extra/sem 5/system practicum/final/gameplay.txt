@@ -1,0 +1,5 @@
+Instructions:-
+			P		For pausing the Game
+			Q		For Quiting the Game instantly
+			R		For Resuming the Game
+			@		Include to send a Message

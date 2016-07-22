@@ -1,0 +1,266 @@
+Customer's :-
+Get 
+Id = 02dcd191-ae80-11e6-f485-49a47a3304a9
+Name = lakshaya mahaswari
+Phone = {u'phone': u'1131353131', u'company_name': u'teramatrix', u'email': u'ascsa@gmail.com'}
+Account Balance = 0.000
+Loyalty Points = 0.00000
+
+Get 
+Id = 02dcd191-ae80-11e6-f485-4a4ae550f1da
+Name = Mandeep Singh
+Phone = {u'phone': u'', u'company_name': u'TTPL', u'email': u'mandeepjpr95@gmail.com'}
+Account Balance = 0.000
+Loyalty Points = 0.00000
+
+Get 
+Id = 02dcd191-ae2b-11e6-f485-48f741dfac83
+Name =  
+Phone = {u'phone': u'', u'company_name': u'', u'email': u''}
+Account Balance = 0
+Loyalty Points = 0
+
+Post 
+Id = 02dcd191-ae80-11e6-f485-4b078249e092
+Name = chandrajeet nagar
+Email = cjnngr01995@gmail.com
+Loyalty Balance = 0.00000
+Company Name = TTPL
+
+Get 
+Id = 02dcd191-ae80-11e6-f485-4b0b67b237f6
+Name =  
+Phone = {u'phone': u'', u'company_name': u'', u'email': u''}
+Account Balance = 0.000
+Loyalty Points = 0.00000
+
+Get 
+Id = 02dcd191-ae80-11e6-f485-4b0b76a30a62
+Name =  
+Phone = {u'phone': u'', u'company_name': u'', u'email': u''}
+Account Balance = 0.000
+Loyalty Points = 0.00000
+
+
+Outlet's :- 
+Id = 02dcd191-ae2b-11e6-f485-48f741e887d7
+Name = Main Outlet
+Location = Asia/Calcutta
+Contact Person = newteramatrix
+
+
+Payment types:- 
+{
+    "payment_types": [
+        {
+            "config": {}, 
+            "id": "02dcd191-ae2b-11e6-f485-48f741e99055", 
+            "name": "Cash", 
+            "payment_type": {
+                "nativeapp": false
+            }, 
+            "payment_type_id": "1"
+        }, 
+        {
+            "config": {}, 
+            "id": "02dcd191-ae80-11e6-f485-498615814f39", 
+            "name": "Cheque", 
+            "payment_type": {
+                "nativeapp": false
+            }, 
+            "payment_type_id": "2"
+        }, 
+        {
+            "config": {}, 
+            "id": "02dcd191-ae2b-11e6-f485-48f741e9bf2f", 
+            "name": "Credit Card", 
+            "payment_type": {
+                "nativeapp": false
+            }, 
+            "payment_type_id": "3"
+        }, 
+        {
+            "config": {
+                "url": "/pay/02dcd191-ae80-11e6-f485-4985f770c1f7"
+            }, 
+            "id": "02dcd191-ae80-11e6-f485-4985f770c1f7", 
+            "name": "Loyalty", 
+            "payment_type": {
+                "nativeapp": false
+            }, 
+            "payment_type_id": "106"
+        }, 
+        {
+            "config": {}, 
+            "id": "02dcd191-ae80-11e6-f485-49a63cb74665", 
+            "name": "Store Credit", 
+            "payment_type": {
+                "nativeapp": false
+            }, 
+            "payment_type_id": "121"
+        }
+    ]
+}
+
+Loyalty program :- 
+
+
+
+Id = 02dcd191-ae80-11e6-f485-4985f770c1f7
+Payment Type = {u'nativeapp': False}
+Payment Type Id = 106
+Config Url= {u'url': u'/pay/02dcd191-ae80-11e6-f485-4985f770c1f7'}
+
+
+
+
+Products :- 
+Get 
+Item = Sunglasses
+Imange = https://newteramatrix.vendhq.com/images/placeholder/product/no-image-white-thumb.png
+Price = 200
+Tax Amount = 0
+Menu Description = Retro square sunglasses with tinted or polarizing lenses.
+Get 
+Item = Silver Pendant Necklace / Aquamarine
+Imange = https://newteramatrix.vendhq.com/images/placeholder/product/no-image-white-thumb.png
+Price = 70
+Tax Amount = 0
+Menu Description = Silver necklace with small stone pendant
+Get 
+Item = Silver Pendant Necklace / Smoky Quartz
+Imange = https://newteramatrix.vendhq.com/images/placeholder/product/no-image-white-thumb.png
+Price = 50
+Tax Amount = 0
+Menu Description = Silver necklace with small stone pendant
+Get 
+Item = Summer Dress / 6
+Imange = https://newteramatrix.vendhq.com/images/placeholder/product/no-image-white-thumb.png
+Price = 125
+Tax Amount = 0
+Menu Description = A light summer floral dress.
+Get 
+Item = Summer Dress / 8
+Imange = https://newteramatrix.vendhq.com/images/placeholder/product/no-image-white-thumb.png
+Price = 125
+Tax Amount = 0
+Menu Description = A light summer floral dress.
+Get 
+Item = Summer Dress / 10
+Imange = https://newteramatrix.vendhq.com/images/placeholder/product/no-image-white-thumb.png
+Price = 125
+Tax Amount = 0
+Menu Description = A light summer floral dress.
+Get 
+Item = Summer Dress / 12
+Imange = https://newteramatrix.vendhq.com/images/placeholder/product/no-image-white-thumb.png
+Price = 125
+Tax Amount = 0
+Menu Description = A light summer floral dress.
+Get 
+Item = Discount
+Imange = https://newteramatrix.vendhq.com/images/placeholder/product/no-image-white-thumb.png
+Price = 0
+Tax Amount = 0
+Menu Description = Discount product
+Get 
+Item = Dress Shirt / Cotton / Small
+Imange = https://newteramatrix.vendhq.com/images/placeholder/product/no-image-white-thumb.png
+Price = 90
+Tax Amount = 0
+Menu Description = Long sleeved pin stripped shirt.
+Get 
+Item = Dress Shirt / Cotton / Medium
+Imange = https://newteramatrix.vendhq.com/images/placeholder/product/no-image-white-thumb.png
+Price = 90
+Tax Amount = 0
+Menu Description = Long sleeved pin stripped shirt.
+Get 
+Item = Dress Shirt / Cotton / Large
+Imange = https://newteramatrix.vendhq.com/images/placeholder/product/no-image-white-thumb.png
+Price = 90
+Tax Amount = 0
+Menu Description = Long sleeved pin stripped shirt.
+Get 
+Item = Dress Shirt / Polyester / Small
+Imange = https://newteramatrix.vendhq.com/images/placeholder/product/no-image-white-thumb.png
+Price = 75
+Tax Amount = 0
+Menu Description = Long sleeved pin stripped shirt.
+Get 
+Item = Dress Shirt / Polyester / Medium
+Imange = https://newteramatrix.vendhq.com/images/placeholder/product/no-image-white-thumb.png
+Price = 75
+Tax Amount = 0
+Menu Description = Long sleeved pin stripped shirt.
+Get 
+Item = Dress Shirt / Polyester / Large
+Imange = https://newteramatrix.vendhq.com/images/placeholder/product/no-image-white-thumb.png
+Price = 75
+Tax Amount = 0
+Menu Description = Long sleeved pin stripped shirt.
+Get 
+Item = International shipping
+Imange = https://newteramatrix.vendhq.com/images/placeholder/product/no-image-white-thumb.png
+Price = 0
+Tax Amount = 0
+Menu Description = Vend Ecommerce Shipping Method<br />DO NOT EDIT OR DELETE THIS PRODUCT
+Get 
+Item = jeans / black
+Imange = https://newteramatrix.vendhq.com/images/placeholder/product/no-image-white-thumb.png
+Price = 100
+Tax Amount = 0
+Menu Description = <p>dress to impress</p>
+Get 
+Item = jeans / blue
+Imange = https://newteramatrix.vendhq.com/images/placeholder/product/no-image-white-thumb.png
+Price = 100
+Tax Amount = 0
+Menu Description = <p>dress to impress</p>
+Get 
+Item = jeans / red
+Imange = https://newteramatrix.vendhq.com/images/placeholder/product/no-image-white-thumb.png
+Price = 100
+Tax Amount = 0
+Menu Description = <p>dress to impress</p>
+Get 
+Item = Orange juice
+Imange = https://s3.amazonaws.com/vend-images/product/thumb/5/1/511f8b387d15dc37068f66fb1f0cdcebc60f5de3.jpg
+Price = 7.5
+Tax Amount = 0
+Menu Description = <p>this i</p>
+Get 
+Item = T-shirts
+Imange = https://newteramatrix.vendhq.com/images/placeholder/product/no-image-white-thumb.png
+Price = 0
+Tax Amount = 0
+Menu Description = <p>dress to impress<\/p>
+Get 
+Item = T-shirts-1
+Imange = https://newteramatrix.vendhq.com/images/placeholder/product/no-image-white-thumb.png
+Price = 0
+Tax Amount = 0
+Menu Description = <p>dress to impress<\/p>
+tags = Retro square, Summer
+Category = Sunglasses
+
+tags = Necklace
+Category = Silver Pendant Necklace / Aquamarine
+
+tags = Summer, Womens, Cotton
+Category = Summer Dress / 6
+
+tags = Mens, Winter
+Category = Dress Shirt / Cotton / Small
+
+tags = jeans
+Category = jeans / black
+
+tags = T-shirts
+Category = T-shirts
+
+tags = T-shirts-1
+Category = T-shirts-1
+
+
+Register Sale :- 

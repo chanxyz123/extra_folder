@@ -1,0 +1,69 @@
+=== Run information ===
+
+Scheme:weka.clusterers.SimpleKMeans -N 3 -A "weka.core.EuclideanDistance -R first-last" -I 500 -S 10
+Relation:     iris
+Instances:    150
+Attributes:   5
+              sepallength
+              sepalwidth
+              petallength
+              petalwidth
+Ignored:
+              class
+Test mode:split 66% train, remainder test
+
+=== Model and evaluation on training set ===
+
+
+kMeans
+======
+
+Number of iterations: 6
+Within cluster sum of squared errors: 6.998114004826762
+Missing values globally replaced with mean/mode
+
+Cluster centroids:
+                           Cluster#
+Attribute      Full Data          0          1          2
+                   (150)       (61)       (50)       (39)
+=========================================================
+sepallength       5.8433     5.8885      5.006     6.8462
+sepalwidth         3.054     2.7377      3.418     3.0821
+petallength       3.7587     4.3967      1.464     5.7026
+petalwidth        1.1987      1.418      0.244     2.0795
+
+
+
+
+Time taken to build model (full training data) : 0.02 seconds
+
+=== Model and evaluation on test split ===
+
+kMeans
+======
+
+Number of iterations: 3
+Within cluster sum of squared errors: 4.7314953964193025
+Missing values globally replaced with mean/mode
+
+Cluster centroids:
+                           Cluster#
+Attribute      Full Data          0          1          2
+                    (99)       (35)       (36)       (28)
+=========================================================
+sepallength       5.8313     5.0514      6.725     5.6571
+sepalwidth        3.0586     3.4543     3.0139     2.6214
+petallength       3.6848     1.4771     5.4389     4.1893
+petalwidth        1.1657     0.2571     1.9139     1.3393
+
+
+
+
+Time taken to build model (percentage split) : 0 seconds
+
+Clustered Instances
+
+0      15 ( 29%)
+1      20 ( 39%)
+2      16 ( 31%)
+

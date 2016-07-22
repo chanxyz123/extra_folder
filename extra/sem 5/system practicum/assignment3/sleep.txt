@@ -1,0 +1,8 @@
+synchronized(LOCK) {
+    Thread.sleep(1000); // LOCK is held
+}
+
+
+synchronized(LOCK) {
+    LOCK.wait(); // LOCK is not held
+}
